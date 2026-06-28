@@ -2,7 +2,7 @@ export default function TechStack() {
     const stackCategories = [
       {
         title: "Backend & Database",
-        description: "Mengelola logika server dan keamanan data.",
+        description: "Managing server-side logic and data security.",
         skills: [
           { name: "Laravel", logo: "https://raw.githubusercontent.com/devicons/devicon/master/icons/laravel/laravel-original.svg" },
           { name: "PHP", logo: "https://raw.githubusercontent.com/devicons/devicon/master/icons/php/php-original.svg" },
@@ -11,7 +11,7 @@ export default function TechStack() {
       },
       {
         title: "Frontend & UI",
-        description: "Membangun antarmuka responsif dan interaktif.",
+        description: "Building responsive and interactive user interfaces.",
         skills: [
           { name: "React", logo: "https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" },
           { name: "Tailwind CSS", logo: "https://raw.githubusercontent.com/devicons/devicon/master/icons/tailwindcss/tailwindcss-original.svg" },
@@ -20,7 +20,7 @@ export default function TechStack() {
       },
       {
         title: "Design & Workflow",
-        description: "Alat untuk perancangan visual dan kolaborasi.",
+        description: "Tools for visual design and collaboration.",
         skills: [
           { name: "Figma", logo: "https://www.vectorlogo.zone/logos/figma/figma-icon.svg" },
           { name: "Canva", logo: "https://www.vectorlogo.zone/logos/canva/canva-icon.svg" },

@@ -17,7 +17,6 @@ export default function Contact() {
         </p>
 
         <div className="flex flex-col items-center gap-6">
-          {/* Tombol Email Utama */}
           <a 
             href="mailto:smahendraloka@gmail.com" 
             className="px-10 py-4 bg-transparent border-2 border-blue-500 text-blue-500 hover:bg-blue-500 hover:text-white font-bold rounded-2xl transition-all duration-300 shadow-lg shadow-blue-500/10"
