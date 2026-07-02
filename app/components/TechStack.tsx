@@ -35,7 +35,7 @@ export default function TechStack() {
           
           {/* Header */}
           <div className="text-center mb-16">
-            <h2 className="text-blue-500 font-bold uppercase tracking-widest text-sm mb-3">Skills & Tools</h2>
+            <h2 className="text-indigo-400 font-bold uppercase tracking-widest text-sm mb-3">Skills & Tools</h2>
             <h3 className="text-3xl md:text-5xl font-extrabold text-white">The Tech Behind My Work.</h3>
           </div>
   
@@ -43,7 +43,7 @@ export default function TechStack() {
             {stackCategories.map((category, index) => (
               <div 
                 key={index} 
-                className="bg-slate-900/50 border border-slate-800 p-8 rounded-3xl hover:border-blue-500/50 transition-all duration-300 group"
+                className="bg-slate-900/50 border border-slate-800 p-8 rounded-3xl hover:border-indigo-500/50 transition-all duration-300 group"
               >
                 <h4 className="text-xl font-bold text-white mb-2">{category.title}</h4>
                 <p className="text-slate-400 text-sm mb-8 leading-relaxed">
@@ -58,7 +58,7 @@ export default function TechStack() {
                         alt={skill.name} 
                         className="w-10 h-10 grayscale group-hover/icon:grayscale-0 transition-all duration-300" 
                       />
-                      <span className="text-[10px] text-slate-500 font-bold uppercase tracking-tighter group-hover/icon:text-blue-400 transition-colors">
+                      <span className="text-[10px] text-slate-500 font-bold uppercase tracking-tighter group-hover/icon:text-indigo-400 transition-colors">
                         {skill.name}
                       </span>
                     </div>

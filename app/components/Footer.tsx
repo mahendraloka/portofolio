@@ -8,7 +8,7 @@ export default function Footer() {
           {/* Brand/Name */}
           <div>
             <h4 className="text-white font-bold text-lg tracking-tight">
-              Satria Duta Mahendraloka<span className="text-blue-500">.</span>
+              Satria Duta Mahendraloka<span className="text-indigo-400">.</span>
             </h4>
             <p className="text-slate-500 text-sm mt-1">
             Fullstack Web Developer focused on building scalable and efficient applications.
@@ -17,7 +17,7 @@ export default function Footer() {
   
           {/* Tech Info */}
           <div className="text-slate-500 text-xs">
-            <p>Built with <span className="text-blue-500">Laravel</span> & <span className="text-blue-500">React</span></p>
+            <p>Built with <span className="text-indigo-400">Next.js</span> &amp; <span className="text-indigo-400">React</span></p>
             <p className="mt-1">Styled with Tailwind CSS</p>
           </div>
   
